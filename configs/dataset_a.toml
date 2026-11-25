@@ -1,0 +1,4 @@
+# QA stage writes this manifest. Captions are sidecar .txt files.
+manifest = "work/group_a/manifest.json"
+caption_extension = ".txt"
+enable_bucket = true

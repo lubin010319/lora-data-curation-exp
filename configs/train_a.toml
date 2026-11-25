@@ -1,0 +1,12 @@
+# SDXL A/B. Keep all hyperparameters identical between groups.
+base_model = "stabilityai/stable-diffusion-xl-base-1.0"
+variant = "fp16"
+dataset = "configs/dataset_a.toml"
+output = "work/sdxl_a"
+seed = 7321
+steps = 120
+resolution = 512
+learning_rate = 0.0001
+rank = 4
+precision = "fp16"
+inference_steps = 25

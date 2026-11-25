@@ -1,0 +1,12 @@
+# Internal testing checkpoint. Training/serialization smoke only.
+base_model = "hf-internal-testing/tiny-stable-diffusion-xl-pipe"
+revision = "fa06b5c3d6d45fabd978486616c6dae068519e85"
+dataset = "configs/dataset_b.toml"
+output = "work/smoke_b"
+seed = 7321
+steps = 2
+resolution = 128
+learning_rate = 0.0001
+rank = 4
+precision = "fp32"
+inference_steps = 2
